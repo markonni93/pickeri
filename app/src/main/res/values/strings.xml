@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">DialogExamples</string>
+    <string name="fire_launcher" />
+    <string name="cancel" />
+    <string name="fire" />
+    <string name="dialog_fire_missiles" />
 </resources>
