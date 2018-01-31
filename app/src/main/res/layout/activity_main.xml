@@ -7,13 +7,38 @@
     tools:context="com.example.code.dialogexamples.MainActivity">
 
     <Button
+        android:id="@+id/prvibutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
+        android:onClick="simpleOnClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/drugibutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kolaci"
+        android:onClick="kolaciOnClick"
+        app:layout_constraintBottom_toBottomOf="@id/prvibutton"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="vreme"
+        android:onClick="vremeOnClick"
+        app:layout_constraintBottom_toBottomOf="@id/drugibutton"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
 
 
 

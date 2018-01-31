@@ -12,8 +12,18 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void showSimpleDialogOne(View view){
+    public void simpleOnClick (View view) {
         SimpleDialogOne simpleDialogOne = new SimpleDialogOne();
         simpleDialogOne.show(getFragmentManager(), null);
+    }
+
+    public void kolaciOnClick(View view) {
+        DialogZaKolace dialogZaKolace = new DialogZaKolace();
+        dialogZaKolace.show(getFragmentManager(), null);
+    }
+
+    public void vremeOnClick(View view) {
+        TimePicker timePicker = new TimePicker();
+        timePicker.show(getFragmentManager(), null);
     }
 }
